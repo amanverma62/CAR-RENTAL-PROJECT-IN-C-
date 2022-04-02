@@ -1,0 +1,357 @@
+ //CREATED BY AMAN VERMA//;
+ 
+ #include<iostream>
+ #include<string.h>
+using namespace std;
+int main(){
+
+
+  string username, un, name, choose, gi, ui, bhn, bn;
+
+  bhn = "santosh";
+
+  bn = "SBI";
+
+
+
+  int password, pass, response, option,  hr, pay, tot, two, ph, mode, payt;
+
+  double mn, mobilenumber;
+
+  mn = 6543287654;
+
+  char k, y, n;
+
+  pass = 1234;
+
+  un = "rental123";
+
+  while (1)
+  {
+
+
+
+
+    cout<<"\n";
+  
+
+
+
+  cout<<"-------------WELCOME TO CAR RENTAL COMPANY--------------"<<endl;
+
+  cout<<"\n";
+
+
+
+  cout<<"ENTER THE USER ID : "<<endl;
+
+  cout<<"\n";
+
+  cin>>username;
+
+  if(username==un){
+
+    cout<<"\n";
+
+    cout<<"correct username "<<endl;
+  }
+
+  else{
+
+    cout<<"\n";
+
+    cout<<"wrong username ! "<<endl;
+
+
+    cout<<"\n";
+
+     cout<<"YOU HAVE RESTART THE PROCESS  : "<<endl;
+
+    break;
+  }
+
+  cout<<"\n";
+
+  cout<<"ENTER THE PASSWORD ! "<<endl;
+
+  cout<<"\n";
+
+  cin>>password;
+
+  if(password==pass){
+    
+
+    cout<<"\n";
+
+    cout<<"correct pass "<<endl;
+
+    cout<<"\n";
+  }
+
+  else{
+
+    cout<<"\n";
+
+    cout<<"wrong password ! "<<endl;
+
+    cout<<"\n";
+
+    cout<<"YOU HAVE RESTART THE PROCESS  : "<<endl;
+
+    break;
+
+  }
+
+
+  
+    cout<<"\n";
+
+
+    
+
+    cout<<"\n";
+
+  cout<<"-------THERE ARE 3 OPTION BELOW CHOOSE ONE OPTION :--------"<<endl;
+
+  cout<<"\n";
+
+  cout<<"1 - WANT  KNOWN ABOUT THE INFORMATION RELATED  TO RENT THE CAR : "<<endl;
+
+  cout<<"\n";
+
+  cout<<"2 -  RENT THE CAR : "<<endl;
+
+  cout<<"\n";
+
+  cout<<"3 - EXIST  : "<<endl;
+
+  cout<<"\n";
+
+  cin>>response;
+
+  if(response==1){
+
+    cout<<"-----THERE ARE 2 OPTIONS IN THE CAR RENTAL PROCESS ----"<<endl;
+
+    cout<<"\n";
+
+    cout<<"1 - WANT TO KNOWN THE CAR MODEL NAME : "<<endl;
+
+    cout<<"\n";
+
+    cout<<"2 - WANT KNOWN THE CHARGES : "<<endl;
+
+    cout<<"\n";
+
+    cin>>option;
+
+  }
+
+   if(option==1){
+
+     cout<<"------THERE ARE 9 CAR AVAILABLE HERE  ! --------"<<endl;
+
+
+     cout<<"1 - NANO : "<<endl;
+
+     cout<<"2 - MARUTI SUZUKI : "<<endl;
+
+     cout<<"3 - HONDA CITY : "<<endl;
+
+     cout<<"4 - TOYTA : "<<endl;
+
+     cout<<"5-  MAHENDRA SUV : "<<endl;
+
+     cout<<"6 - THAR : "<<endl;
+
+     cout<<"7 - TATA NEXON : "<<endl;
+
+     cout<<"8 - TATA ALTROZ "<<endl;
+
+     cout<<"9 - TATA TIAGO : "<<endl;
+
+     cout<<"10 - TATA HARRIER : "<<endl;
+
+
+
+   }
+
+   if(option==2){
+
+     cout<<"-----CHARGES ARE APPLICABLE ON THE BASIC FOR HOW MUCH HOUR YOU RENT THE CAR :--------"<<endl;
+
+     cout<<"1 - NANO - 650 PER/HR : "<<endl;
+
+     cout<<"2 -  suzuki - 650 PER/ HR : "<<endl;
+
+     cout<<"3 -  HONDA CITY - 650 PER/HR : "<<endl;
+
+     cout<<"4 - SUV - 650 PER / HR : "<<endl;
+
+     cout<<"5 - THAR - 650 PER / HR : "<<endl;
+
+     cout<<"6 - NEXON -- 650 PER/HR"<<endl;
+
+     cout<<"7 - ALTROZ -- 650 PER/HR : "<<endl;
+
+     cout<<"8 - TIAGO -- 650 PER/HR : "<<endl;
+
+     cout<<"9 - TOYTA ---  650 PER / HR : "<<endl;
+
+     cout<<"10 - HARRIER -- 650 PER / HR : "<<endl;
+   }
+
+   cout<<"\n";
+
+   if(response==2){
+
+     cout<<"ENTER YOUR NAME : "<<endl;
+
+     cout<<"\n";
+
+     cin>>name;
+
+     cout<<"\n";
+
+     cout<<"ENTER THE CAR NAME WHICH U WANT TO RENT : "<<endl;
+
+     cout<<"\n";
+
+     cin>>choose;
+
+     cout<<"\n";
+
+     cout<<"YOU CHOOSE THE CAR WHICH IS : "<<choose<<endl;
+
+     cout<<"\n";
+
+     cout<<"ENTER THE HOUR YOU WANT TO RENT : "<<endl;
+
+     cout<<"\n";
+
+     cin>>hr;
+
+     cout<<"\n";
+
+     cout<<"TO COMPLETE THE PAYMENT CLICK ( y/n) HERE : "<<endl;
+
+     cout<<"\n";
+
+     cin>>k;
+
+
+   }
+
+    if(k=='y'){
+
+      tot = hr * 650;
+
+      cout<<"\n";
+
+
+      cout<<"YOUR NAME IS : "<<name<<endl;
+
+      cout<<"\n";
+
+      cout<<"YOUR RENT THE CAR WHICH IS : "<<choose<<endl;
+
+      cout<<"\n";
+
+      cout<<"YOU RENT THE CAR  FOR : "<<hr<<" HR "<<endl;
+
+      cout<<"\n";
+
+
+      cout<<"YOUR TOTAL AMOUNT IS ACCORDING TO PER HR RATE IS : "<<tot<<endl;
+
+      cout<<"\n";
+
+
+      cout<<"THERE ARE 2  MODE OF PAYMENT HERE : "<<endl;
+
+      cout<<"\n";
+
+      cout<<"1 - CASH : "<<endl;
+
+      cout<<"\n";
+
+
+      cout<<"2 - PAYTM "<<endl;
+
+      cout<<"\n";
+
+
+      cin>>mode;
+
+      cout<<"\n";
+
+      if(mode==1){
+
+
+        cout<<"enter the amount cash : "<<endl;
+
+        cout<<"\n";
+
+        cin>>pay;
+
+        cout<<"you have succesfuuly paid the amount thanku !"<<endl;
+      }
+
+
+  
+
+      if(mode==2){
+
+        cout<<"enter the mobile number of company written in the card : "<<endl;
+
+        cin>>mobilenumber;
+      }
+
+      if(mobilenumber==mn){
+
+        cout<<"THE BANK HOLDER NAME IS : "<<bhn<<endl;
+
+
+        cout<<"BANK NAME IS : "<<bn<<endl;
+
+        cout<<"enter the amount here : "<<endl;
+
+        cin>>pay;
+
+        cout<<"you rent the car sucessfully thanku ! "<<endl;
+
+      }
+
+      else{
+
+        cout<<"there is no result found on this number : "<<endl;
+      }
+
+
+      
+    
+
+     if(k =='n'){
+
+      cout<<"tanscation failed ! "<<endl;
+    }
+
+    
+
+    if(response==3){
+
+      cout<<"u are existed from the process : thanku ! "  <<endl;
+
+      break;
+    }
+
+    }
+
+     
+ 
+    return 0;
+
+
+  }
+
+}
